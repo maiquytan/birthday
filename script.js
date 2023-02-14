@@ -72,12 +72,6 @@ function playMusic() {
   }
 }
 
-let heart = setInterval(()=>{
-  let size = Math.floor(Math.random()*30) + 10;
-  let lefDir = Math.floor(Math.random()*100) + 1;
-
-  $('.container').append("<div class='heart' style='width:" + size +"px; left :" + lefDir + "%;" + "; animation: heart" + "10s" + "ease '</div>" );
-},500);
 
 function openFunction() {
   var x = document.getElementById("imgThu");
